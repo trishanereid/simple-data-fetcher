@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 
 st.title("Stock Data Fetcher")
 
-symbol = st.text_input(label="Symbol", placeholder="Ex: AAPL")
+symbol = st.text_input(label="Symbol", placeholder="NVDA")
 range = st.selectbox("range:", ("1mo", "1y"), )
 
 
